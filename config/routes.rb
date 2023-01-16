@@ -8,4 +8,6 @@ Rails.application.routes.draw do
                        action: "fortune_method"
   get "/lotto_path", controller: "my_examples",
   action: "lotto_method"
+  get "/bottles_path", controller: "my_examples",
+  action: "bottles_method" 
 end
